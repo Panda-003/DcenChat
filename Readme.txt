@@ -105,7 +105,7 @@ let opts = {
  
  12. Copy the data from one of your `priv_validator.json` files into the the repo you just clone in a file named `priv_validator.json`. Again make sure this file is *never* added to version control.
  
- 13. Run your chat-node via `node chat-node.js`. If you are creating 3 validators (or more) this will look frozen like it isn't doing anything. That is because *2/3 of all validators must be online before it starts writing blocks*. Once your other validators are online you would see output in the console here. Also note that you need a node process manager so the app can run all the time. I recommend [pm2](http://pm2.keymetrics.io/). 
+ 13. Run your chat-node via `node chat-node.js`. If you are creating 3 validators (or more) this will look frozen like it isn't doing anything. That is because *2/3 of all validators must be online before it starts writing blocks*. Once your other validators are online you would see output in the console here. Also note that you need a node process manager so the app can run all the time. [ Recommended (http://pm2.keymetrics.io/) ] 
  
  Once installed you can do something like `pm2 start node-chat.js --name Dcenchat`
  
