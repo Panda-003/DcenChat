@@ -1,4 +1,4 @@
-## Creating Your Own Blockchain
+(A) Creating Your Own Blockchain
 
 Fork this repo onto your own Github.
 
@@ -113,7 +113,7 @@ let opts = {
  
  15. Once at least 2/3 of the validators listed in `genesis.json` are online your blockchain validator nodes will start writing blocks (and logging output)
  
-## Problem Solving
+(B) Problem Solving
 
 There are a handful of things that could go wrong. Here are a few to account for:
 
@@ -124,7 +124,7 @@ There are a handful of things that could go wrong. Here are a few to account for
 5. When developing, do so with `devMode: true` so it deletes the blockchain data each run - otherwise you'll have bugs while making so many changes to the blockchain
  
 
-## Creating a Chat Client
+(C) Creating a Chat Client
 
 Now you can let users use your blockchain using a Light client. A Light client on Lotion does *not* hold a copy of the blockchain data. It runs itself as a simple node on your blockchain so it can perform functions.
 
