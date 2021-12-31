@@ -99,7 +99,7 @@ let opts = {
  
  Add your SSH keys to Digital Ocean or create a root password. If you need help with that see [here](https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh).
  
- 11. SSH into your new Digital Ocean Droplet. Clone this repository: [https://github.com/HawkdotDev/Dcenchat.git](https://github.com/HawkdotDev/Dcenchat.git)
+ 11. SSH into your new Digital Ocean Droplet. Clone this repository: [ https://github.com/HawkdotDev/Dcenchat.git ]
  
  By default Digital Ocean exposes all ports. If you have any issues, just make sure that ports `46656` and `46657` are exposed to the outside world.
  
