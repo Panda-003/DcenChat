@@ -1,9 +1,3 @@
-## Free Digital Ocean Credits
-
-Get $15 *FREE* credit for Digital Ocean hosting. Use this code on the billing page: `DOHawkdotDev15`
-
-You will need hosting if you are to launch your own blockchain.
-
 ## Creating Your Own Blockchain
 
 Fork this repo onto your own Github.
